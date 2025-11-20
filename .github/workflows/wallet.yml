@@ -1,0 +1,15 @@
+name: Wallet Ruby Linter
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
+          bundler-cache: true
+      - name: Run RubyCop
+        run: bundle exec rubocop --config .rubocop.yml
