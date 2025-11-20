@@ -2,6 +2,7 @@
 
 class Wallet
   attr_accessor :color, :size
+  attr_reader :isLost
 
   def initialize(color, size)
     @color = color
@@ -25,10 +26,6 @@ class Wallet
 
   def close
     @isOpen = false
-  end
-
-  def isLost
-    @isLost
   end
 
   def checkVola
