@@ -8,7 +8,7 @@ Naming/MethodName:
 Naming/VariableName:
   Enabled: false
 
-Naming/PredicateName:
+Naming/PredicatePrefix:
   Enabled: false
 
 Style/Documentation:
@@ -19,7 +19,6 @@ Layout/LineLength:
   AllowHeredoc: true
   AllowURI: true
   IgnoreCopDirectives: true
-  TooLazyToSpecifyCount: true
 
 Metrics/MethodLength:
   Max: 20
