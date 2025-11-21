@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 
 class Wallet
-  attr_accessor :color, :size
-  attr_reader :isLost
+  attr_reader :color, :size, :isLost
 
   def initialize(color, size)
     @color = color
@@ -30,5 +29,13 @@ class Wallet
 
   def checkVola
     @balance
+  end
+
+  def setColor(newColor)
+    @color = newColor
+  end
+
+  def setSize(newSize)
+    @size = newSize
   end
 end
