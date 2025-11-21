@@ -31,11 +31,11 @@ class Wallet
     @balance
   end
 
-  def setColor(new_color)
-    @color = new_color
+  def setColor(newColor)
+    @color = newColor
   end
 
-  def setSize(new_size)
-    @size = new_size
+  def setSize(newSize)
+    @size = newSize
   end
 end
