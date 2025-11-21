@@ -12,21 +12,519 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="ast (v2.4.3, ruby-3.4.7-p58) [gem]" level="application" />
+    <orderEntry type="module-library">
+      <library name="ast (v2.4.3) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="ast" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/ast-2.4.3" />
+          <option name="version" value="2.4.3" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/ast-2.4.3/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/ast-2.4.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="json (v2.9.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="json" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/json-2.9.1" />
+          <option name="version" value="2.9.1" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/json-2.9.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/json-2.9.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/json-2.9.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/json-2.9.1/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/json-2.9.1/ext" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="language_server-protocol (v3.17.0.5) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="language_server-protocol" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/language_server-protocol-3.17.0.5" />
+          <option name="version" value="3.17.0.5" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/language_server-protocol-3.17.0.5/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/language_server-protocol-3.17.0.5/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="lint_roller (v1.1.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="lint_roller" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/lint_roller-1.1.0" />
+          <option name="version" value="1.1.0" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/lint_roller-1.1.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/lint_roller-1.1.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="parallel (v1.27.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="parallel" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/parallel-1.27.0" />
+          <option name="version" value="1.27.0" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/parallel-1.27.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/parallel-1.27.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="parser (v3.3.10.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="parser" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/parser-3.3.10.0" />
+          <option name="version" value="3.3.10.0" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/parser-3.3.10.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/parser-3.3.10.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/parser-3.3.10.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/parser-3.3.10.0/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/parser-3.3.10.0/bin" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="prism (v1.5.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="prism" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/prism-1.5.1" />
+          <option name="version" value="1.5.1" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/prism-1.5.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/prism-1.5.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/prism-1.5.1/rbi" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/prism-1.5.1/sig" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/prism-1.5.1/src" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/prism-1.5.1/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/prism-1.5.1/include" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/prism-1.5.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/prism-1.5.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/prism-1.5.1/rbi" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/prism-1.5.1/sig" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/prism-1.5.1/src" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/prism-1.5.1/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/prism-1.5.1/include" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/prism-1.5.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/prism-1.5.1/rbi" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/prism-1.5.1/src" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/prism-1.5.1/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/prism-1.5.1/include" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="racc (v1.8.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="racc" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1" />
+          <option name="version" value="1.8.1" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/doc" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/doc" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/doc" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rainbow (v3.1.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="rainbow" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/rainbow-3.1.1" />
+          <option name="version" value="3.1.1" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/rainbow-3.1.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/rainbow-3.1.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="regexp_parser (v2.11.3) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="regexp_parser" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/regexp_parser-2.11.3" />
+          <option name="version" value="2.11.3" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/regexp_parser-2.11.3/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/regexp_parser-2.11.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rubocop (v1.81.7) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="rubocop" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/rubocop-1.81.7" />
+          <option name="version" value="1.81.7" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/rubocop-1.81.7/exe" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/rubocop-1.81.7/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/rubocop-1.81.7/assets" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/rubocop-1.81.7/config" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/rubocop-1.81.7/exe" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/rubocop-1.81.7/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/rubocop-1.81.7/assets" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/rubocop-1.81.7/config" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/rubocop-1.81.7/exe" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/rubocop-1.81.7/assets" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rubocop-ast (v1.48.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="rubocop-ast" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/rubocop-ast-1.48.0" />
+          <option name="version" value="1.48.0" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/rubocop-ast-1.48.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/rubocop-ast-1.48.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ruby-progressbar (v1.13.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="ruby-progressbar" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/ruby-progressbar-1.13.0" />
+          <option name="version" value="1.13.0" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/ruby-progressbar-1.13.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/ruby-progressbar-1.13.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="unicode-display_width (v3.2.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="unicode-display_width" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/unicode-display_width-3.2.0" />
+          <option name="version" value="3.2.0" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/unicode-display_width-3.2.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/unicode-display_width-3.2.0/data" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/unicode-display_width-3.2.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/unicode-display_width-3.2.0/data" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/unicode-display_width-3.2.0/data" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="unicode-emoji (v4.1.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="unicode-emoji" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/unicode-emoji-4.1.0" />
+          <option name="version" value="4.1.0" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/unicode-emoji-4.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/unicode-emoji-4.1.0/data" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/unicode-emoji-4.1.0/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/unicode-emoji-4.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/unicode-emoji-4.1.0/data" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/unicode-emoji-4.1.0/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/unicode-emoji-4.1.0/data" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.4.0/gems/unicode-emoji-4.1.0/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.7.2, ruby-3.4.7-p58) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="json (v2.9.1, ruby-3.4.7-p58) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="language_server-protocol (v3.17.0.5, ruby-3.4.7-p58) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="lint_roller (v1.1.0, ruby-3.4.7-p58) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="parallel (v1.27.0, ruby-3.4.7-p58) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="parser (v3.3.10.0, ruby-3.4.7-p58) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="prism (v1.5.1, ruby-3.4.7-p58) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="racc (v1.8.1, ruby-3.4.7-p58) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rainbow (v3.1.1, ruby-3.4.7-p58) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="regexp_parser (v2.11.3, ruby-3.4.7-p58) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rubocop (v1.81.7, ruby-3.4.7-p58) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rubocop-ast (v1.48.0, ruby-3.4.7-p58) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ruby-progressbar (v1.13.0, ruby-3.4.7-p58) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="unicode-display_width (v3.2.0, ruby-3.4.7-p58) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="unicode-emoji (v4.1.0, ruby-3.4.7-p58) [gem]" level="application" />
   </component>
 </module>
