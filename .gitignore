@@ -61,9 +61,9 @@ text/sujet.txt
 # tous les test
 scripts/shell/test.sh
 scripts/shell/check_conventions.sh
-tests/check_conventions.rb
+test/check_conventions.rb
 scripts/shell/test_syntaxe.sh
-tests/case_test.rb
+test/case_test.rb
 scripts/shell/case_test.sh
 scripts/shell/test_complete.sh
 scripts/shell/manual_test.sh

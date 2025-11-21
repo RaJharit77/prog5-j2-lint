@@ -8,6 +8,9 @@ Naming/MethodName:
 Naming/VariableName:
   Enabled: false
 
+Naming/MethodParameterName:
+  Enabled: false
+
 Naming/PredicatePrefix:
   Enabled: false
 
